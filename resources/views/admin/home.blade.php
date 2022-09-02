@@ -24,12 +24,12 @@
       <!-- small box -->
       <div class="small-box bg-success">
         <div class="inner">
-          <h3 style="font-size: 20px">{{ $drivers }}</h3>
+          <h3>{{ $drivers }}</h3>
 
           <p>رانندگان</p>
         </div>
         <div class="icon">
-          <i class="ion ion-stats-bars"></i>
+          <i class="ion ion-person-add"></i>
         </div>
         <a href="{{ route('admin.driver.index') }}" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
       </div>
@@ -39,14 +39,14 @@
       <!-- small box -->
       <div class="small-box bg-warning">
         <div class="inner">
-          <h3>44</h3>
+          <h3>{{ $cargos }}</h3>
 
-          <p></p>
+          <p>محموله ها</p>
         </div>
         <div class="icon">
-          <i class="ion ion-person-add"></i>
+          <i class="ion ion-stats-bars"></i>
         </div>
-        <a href="#" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
+        <a href="{{ route('admin.cargo.index') }}" class="small-box-footer">اطلاعات بیشتر <i class="fa fa-arrow-circle-left"></i></a>
       </div>
     </div>
     <!-- ./col -->
